@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %} Home {% endblock %}
+
+
+{% block content %} 
+     <div class="text-center text-primary">
+            <h1>PollApp - Get Started!</h1>
+            <h3>Your Voice Matters!</h3>
+            <hr>
+            <a class="btn btn-outline-primary" href="{% url 'polls:list' %}" role="button">Get Started !</a>
+     </div>  
+  
+    
+{% endblock content %}
