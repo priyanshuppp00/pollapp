@@ -32,7 +32,7 @@ Django poll app is a full featured polling app. You have to register in this app
 <h2>Configure Email - Poll Owner receives Email when vote is cast by user</h2>
 <p>Get your smtp host details and replace following values in your</p> <code>settings.py</code>
 
-<h3>Configure email settings</h3>
+#Configure email settings</h3>
 <code>EMAIL_HOST = '<your smtp host>'</code><br>
 <code>EMAIL_PORT = '<smtp port>'</code><br>
 <code>EMAIL_HOST_USER = '<smtp host user>'</code><br>
