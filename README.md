@@ -4,7 +4,7 @@ Django poll app is a full featured polling app. You have to register in this app
 <h1>Getting Started</h1>
 <p>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.</p>
 
-<h2>Prerequisites</h2>
+<h2>Pre requisites</h2>
 <code>python== 3.5 or up and django==2.0 or up</code>
 
 <h2>Installing</h2>
@@ -28,6 +28,17 @@ Django poll app is a full featured polling app. You have to register in this app
 <code>seeder.seed_all(30)</code>
 <p>Here 30 is a number of entry. You can use it as your own</p>
 
+
+<h2>Configure Email - Poll Owner receives Email when vote is cast by user</h2>
+<p>Get your smtp host details and replace following values in your</p> <code>settings.py</code>
+
+# Configure email settings
+EMAIL_HOST = '<your smtp host>'
+EMAIL_PORT = '<smtp port>'
+EMAIL_HOST_USER = '<smtp host user>'
+EMAIL_HOST_PASSWORD = '<smtp host pass>'
+DEFAULT_FROM_EMAIL = '<from email address>'
+
 <h2> To run the program in local server use the following command </h2>
 <code>python manage.py runserver</code>
 
@@ -35,50 +46,40 @@ Django poll app is a full featured polling app. You have to register in this app
 
 <h2>Project snapshot</h2>
 
-###### Home page
+#### Home page
 ![Screenshot (52)](https://github.com/user-attachments/assets/cabbddbf-68fe-4f09-b10e-e8a58ee9dbbc)
 
 
 
-###### Login Page
+#### Login Page
 ![Screenshot (53)](https://github.com/user-attachments/assets/4d54843f-5705-4a69-a4a7-23356f04a1f9)
 
 
-###### Registration Page
+#### Registration Page
 ![Screenshot (54)](https://github.com/user-attachments/assets/07279bcf-222f-428d-8d66-51a8e511df2c)
 
-##### Poll List Page
+#### Poll List Page
 ![Screenshot (56)](https://github.com/user-attachments/assets/5ab0cf41-a570-4091-a534-5ae8c17851b4)
 
 
 
-##### Poll Add Page
+#### Poll Add Page
+![Screenshot (59)](https://github.com/user-attachments/assets/34e2e813-0f21-474a-8822-5a7da1555a13)
 
+#### Polling page
+![Screenshot (58)](https://github.com/user-attachments/assets/dba13334-6f5a-4051-bcef-618ad096a0d9)
 
-<h3>Polling page</h3>
-<div align="center">
-    <img src="https://user-images.githubusercontent.com/19981097/51409843-1e0cba00-1b8d-11e9-9109-cceb79a6a623.png" width="100%"</img> 
-</div>
+#### Poll Result Page
+![Screenshot (61)](https://github.com/user-attachments/assets/ef80d906-eb86-4a4e-a940-12b6b58c1392)
 
-<h3>Poll Result Page</h3>
-<div align="center">
-    <img src="https://user-images.githubusercontent.com/19981097/51409932-60ce9200-1b8d-11e9-9c83-c59ba498ca8b.png" width="100%"</img> 
-</div>
+#### Poll Edit Page
+![Screenshot (60)](https://github.com/user-attachments/assets/139fbe2d-49f0-47f9-9827-76f89e0f8d3b)
 
-<h3>Poll Edit Page</h3>
-<div align="center">
-    <img src="https://user-images.githubusercontent.com/19981097/51410008-92dff400-1b8d-11e9-8172-c228e4b60e28.png" width="100%"</img> 
-</div>
-
-<h3>Choice Update Delete Page</h3>
-<div align="center">
-    <img src="https://user-images.githubusercontent.com/19981097/51410442-dc7d0e80-1b8e-11e9-8f8e-18e6d7bb70fb.png" width="100%"</img> 
-</div>
 
 <h2>Author</h2>
 <blockquote>
-  Mahmudul alam<br>
-  Email: expelmahmud@gmail.com
+  Priyanshu<br>
+  Email: example@gmail.com
 </blockquote>
 
 <div align="center">
