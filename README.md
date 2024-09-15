@@ -34,8 +34,10 @@ Django poll app is a full featured polling app. You have to register in this app
 <p>Then go to http://127.0.0.1:8000/home in your browser</p>
 
 <h2>Project snapshot</h2>
-<h3>Home page</h3>
-[Screenshot (52)](https://github.com/user-attachments/assets/8849e8b1-76ba-4a25-8619-b6b231b13604)
+
+###### Home page
+![Screenshot (52)](https://github.com/user-attachments/assets/cabbddbf-68fe-4f09-b10e-e8a58ee9dbbc)
+
 
 
 ###### Login Page
