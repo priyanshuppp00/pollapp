@@ -37,7 +37,7 @@ Django poll app is a full featured polling app. You have to register in this app
  EMAIL_HOST_USER = '&lt;smtp host user&gt;'
  EMAIL_HOST_PASSWORD = '&lt;smtp host pass&gt;'
  DEFAULT_FROM_EMAIL = '&lt;from email address&gt;'
- </code>
+</code>
 
 <h2> To run the program in local server use the following command </h2>
 <code>python manage.py runserver</code>
