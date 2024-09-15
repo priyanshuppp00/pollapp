@@ -35,19 +35,14 @@ Django poll app is a full featured polling app. You have to register in this app
 
 <h2>Project snapshot</h2>
 <h3>Home page</h3>
-<div align="center">
-    <img src=![Screenshot (52)](https://github.com/user-attachments/assets/aac39e4b-225c-4738-8a83-f49b622616fc)> width="100%"</img> 
-</div>
+![Screenshot (52)](https://github.com/user-attachments/assets/8849e8b1-76ba-4a25-8619-b6b231b13604)
+
 
 <h3>Login Page</h3>
-<div align="center">
-    <img src= width="100%"</img> 
-</div>
+![Screenshot (53)](https://github.com/user-attachments/assets/5df10546-4e0a-4eff-9310-a9d386036649)
 
 <h3>Registration Page</h3>
-<div align="center">
-    <img src="https://user-images.githubusercontent.com/19981097/51409562-5cee4000-1b8c-11e9-82f6-1aa2df159528.png" width="100%"</img> 
-</div>
+>
 
 <h3>Poll List Page</h3>
 <div align="center">
