@@ -1,0 +1,30 @@
+html, body {
+    height:100%;
+    padding: 0;
+    margin: 0;
+    color: white; 
+  }
+html{
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+}
+body {
+    background: rgba(0, 0, 0, 0.466);
+}
+#home-content{
+    text-align: center;
+    padding-top: 20%;
+}
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+
+.nav-link.active {
+    font-weight: bold;
+    border: solid 2px rgb(102, 102, 118);
+    /* Bootstrap primary color */
+}
