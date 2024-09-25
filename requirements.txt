@@ -2,7 +2,7 @@ asgiref==3.7.2
 beautifulsoup4==4.12.3
 crispy-bootstrap4==2024.1
 crispy-bootstrap5==2024.2
-Django==4.2.7
+Django==4.2.16
 Python==3.10
 django-allauth==64.2.1
 django-bootstrap4==24.3
